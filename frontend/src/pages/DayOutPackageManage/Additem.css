@@ -1,0 +1,112 @@
+
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        
+      }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+      .AddShape {
+        border-radius: 15px;
+        background: #00444D;
+        padding: 1px; 
+        width: 800px;
+        height: 630px;  
+        position:absolute;
+         top:180px;
+         left:480px;
+         right:5px;
+         margin-top:-60px;
+         }
+      .submitbtn {
+        position:absolute;
+        top:725px;
+        left:450px;
+        right:5px;
+        margin-top:-150px;
+        margin-left:-2px;
+        width: 200px;
+        height: 40px;
+        background-color: #0094A8 ;
+        border: none;
+        border-radius: 25px;
+        color: aliceblue;
+        font-size: large;
+        
+      }
+      .cancelbtn {
+        position:absolute;
+        top:725px;
+        left:150px;
+        right:5px;
+        margin-top:-150px;
+        margin-left:-50px;
+        width: 200px;
+        height: 40px;
+        background-color: #ff4242 ;
+        border: none;
+        border-radius: 25px;
+        color: aliceblue;
+        font-size: large;
+        
+      }
+      .cancelbtn:hover {background-color: #ac0000}
+      
+      .cancelbtn:active {
+        background-color: #FF6464;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+      .font{
+        color: aliceblue;
+        
+      }
+      .textfield{
+        background-color: #ffffff;
+     }
+      .textfield:hover{
+        background-color: #d7d7d7
+      }
+      .labels{
+        font-size:small;
+        color: aliceblue;
+        margin-top: 10dp;
+        
+      }
+.textfield{
+  background-color: #FFFFFF;
+}
+    

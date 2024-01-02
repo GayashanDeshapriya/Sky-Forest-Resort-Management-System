@@ -1,0 +1,273 @@
+.Invreport{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem; 
+}
+
+.Invmain{
+  align-items: center;
+  display: flex;
+  height: 70vh;
+  margin-left: 70px;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3rem;      
+}
+
+.Invmain-2{
+  align-items: center;
+  display: flex;
+  height: 80vh;
+  margin-left: 70px;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3rem;      
+}
+
+.InvManage{
+  height: 70vh;
+  align-items: center;
+  display: flex;
+  margin-left: 70px;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1rem; 
+}
+
+.form-container-inv {
+  width: 450px;
+  background-color: #00444D;
+  border: 3px solid white;
+  margin: auto;
+  border-radius: 9px;
+  box-shadow: 0 0 10px 0 black, 2px 2px 2px 0 #1b1b1b;
+  padding: 10px;
+  color: white;
+}
+
+.Item-form-inv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+  
+
+}
+
+.form-field-inv {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  background: rgb(255, 255, 255);
+  color: black;
+}
+
+
+.success-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f89f8;
+  padding: 15px;
+  color: white;
+}
+
+
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+input {
+  color: black;
+ 
+}
+
+input::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.btngroup-inv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cancel-inv {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid rgb(173, 25, 25);
+  color: white;
+  text-decoration: none;
+}
+.delete-inv {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(248, 62, 62);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.edit-inv{
+  margin-left: 15px;
+  width: 90px;
+  height: 30px;
+  background-color: rgb(0, 160, 37);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.submit-inv {
+  background-color: green;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+.title-inv {
+  margin-top: 20px;
+  padding: 20px 20px;
+  border-radius: 20px;
+  font-size: 25px; 
+}
+
+.logos-inv{
+  
+  position: absolute;
+  top: 0px;
+  right: -150px;
+  width: 500px;
+  height: 80px;
+ 
+}
+
+.lbl-inv{
+  font-size: 14px;
+  font-family:'poppin';
+  
+}
+
+.image01-inv{
+  width: flex;
+  height: 200px;   
+}
+
+.btn{
+  padding: auto;
+}
+
+.landing_img_inv{
+      margin-right: 90px;   
+}
+
+.search_box-inv {
+  margin-top: -350px;
+  margin-left: 900px;
+}
+
+.inputReportSearch-inv {
+  background-color: rgb(10, 10, 10);
+  height: 50px;
+  width: 300px;
+  padding: 10px 30px;
+}
+
+.buttonPosition-inv {
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+
+.button-text-inv,
+.button-icon-inv {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+}
+
+.button-icon-inv {
+  font-size: 1.5em;
+  background-color: #1b1b1b;
+  color: white;
+  border-left: solid;
+  border-color: red;
+}
+.inv-dash {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 170px;
+}
+.Reportbutton{
+  align-items: end;
+}
+.Reportbutton1 {
+  background-color: #0094A8;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 450dp;
+  margin-top: 10dp;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-Inv {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.table-Inv th,
+.table-Inv td {
+  padding: 30px;
+  text-align: center;
+}
+
+.table-Inv th {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.table-Inv tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+@media print {
+  .Reportbutton {
+    display: none;
+  }
+}

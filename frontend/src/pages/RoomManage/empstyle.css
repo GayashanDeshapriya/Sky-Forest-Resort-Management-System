@@ -1,0 +1,341 @@
+.empReport{
+    align-items: center;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+}
+
+.form-container-emp {
+    width: 500px;
+    background-color: #00444D;
+    margin: auto;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 0 black, 2px 2px 2px 0 #1b1b1b;
+    padding: 10px;
+    margin-top: 100 ;
+    color: white;
+
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.register-form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+
+.success-message {
+    font-family: "Roboto", sans-serif;
+    background-color: #3f89f8;
+    padding: 15px;
+    color: white;
+}
+
+.form-field {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 13px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    border-color:rgb(255, 255, 255);
+}
+
+span {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+input {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    outline: none;
+    color: rgb(63, 63, 63);
+    border: 2px solid darkgreen !important;
+}
+
+input::placeholder {
+    color: rgb(9, 9, 9);
+    opacity: 0.3;
+ 
+}
+
+.error {
+    border-style: solid;
+    border: 2px solid #ffa4a4;
+}
+button:hover {
+    background-color: #555;
+    color: #fff;
+    transition: 'background-color 0.3s ease',
+  }
+  
+button {
+    background: #4ec451;
+    color: white;
+    cursor: pointer;
+    transition: 'background-color 0.3s ease',
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.btngroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cancel {
+    height: 40px;
+    width: 70px;
+    background-color: #FF6464;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.submit {
+    height: 40px;
+    width: 70px;
+    background-color: #0094A8;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.title {
+    margin-top: 100px;
+    border: 2px solid blue;
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px 30px;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.lbl {
+    font-size: 15px;
+    
+    
+}
+
+.Containeremp {
+    margin-top: 390px;
+    margin-left: 200px;
+}
+
+.Containeremp3 {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.Containeremp5 {
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-bottom: 400px;
+    text-align: center;
+}
+
+
+.image01 {
+    width: 250px;
+    height: 50px;
+}
+
+.btn {
+    padding: auto;
+}
+
+.container-left {
+    margin-left: 400px;
+}
+
+.container-right-emp {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container-right-sup {
+    margin-left: 45px;
+    margin-top: 60px;
+}
+.container-left-emp {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.emp-landing-image {
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+
+.emp-landing-image .image01 {
+    width: flex;
+    height: auto;
+    
+}
+
+.btn-image-sup {
+    margin-right: 30px;
+}
+
+.search-bar {
+    height: 50px;
+    justify-content: center;
+}
+
+.search-bar h4{
+    font-weight: bold;
+    color: #00444D;
+}
+
+.search_box-emp .inputReportSearch-emp {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 400px;
+    padding: 10px 10px;
+
+    
+}
+
+.ReportButton-emp {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #1b1b1b;
+    border: solid;
+    border-color: red;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: poppin;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 30px;
+}
+
+.buttonPosition-emp {
+    align-items: center;
+    margin-top: 60px;
+}
+
+.ReportButton-emp{
+    border: none;
+    background-color: #0094A8;
+}
+.ReportButton-emp .button-text-emp {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    height: 100%;
+}
+
+.ReportButton-emp .button-icon-emp {
+    font-size: 1.5em;
+    background-color: #00444D;
+    color: white;
+    border-left: solid;
+    
+}
+
+.search_box-emp1 .inputAttendanceSearch-emp {
+    background-color: rgb(148, 129, 129);
+    height: 50px;
+    width: 500px;
+    padding: 10px 10px;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    
+}
+.tablealign-inv {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .table-Inv {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .table-Inv th,
+  .table-Inv td {
+    padding: 12px;
+    text-align: left;
+    font-size: small;
+    
+  }
+  
+  .table-Inv th {
+   color: rgb(0, 0, 0);
+  }
+
+  .delete-inv{
+    width: 50px;
+    background-color: #fd7272;
+    border: none;
+  }
+
+  .edit-inv{
+    width: 50px;
+    background-color: #0094A8;
+    color: #fff;
+    border: none;
+  }
+
+  .sal-inv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+  }
+
+  .submit-sal{
+    height: 40px;
+    width: 120px;
+    background-color: #0094A8;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .lable-shift {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .form-checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  
+  

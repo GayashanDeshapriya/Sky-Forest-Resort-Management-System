@@ -1,0 +1,271 @@
+.safarimain{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin-left: 70px;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;      
+  }
+.safariReport{
+    align-items: center;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+}
+
+.form-container-safari {
+    width: 500px;
+    background-color: #1b1b1b;
+    margin: auto;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 0 black, 2px 2px 2px 0 #1b1b1b;
+    padding: 10px;
+    margin-top: 100 ;
+    color: white;
+
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.register-form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+
+.success-message {
+    font-family: "Roboto", sans-serif;
+    background-color: #3f89f8;
+    padding: 15px;
+    color: white;
+}
+
+.form-field {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+   
+    border-color:crimson;
+}
+
+span {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+input {
+    background: grey;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    border: 2px solid darkgreen !important;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 0.5;
+ 
+}
+
+.error {
+    border-style: solid;
+    border: 2px solid #ffa4a4;
+}
+button:hover {
+    background-color: #555;
+    color: #fff;
+    transition: 'background-color 0.3s ease',
+  }
+  
+button {
+    background: #4ec451;
+    color: white;
+    cursor: pointer;
+    transition: 'background-color 0.3s ease',
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.btngroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cancel {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid red;
+    color: white;
+    text-decoration: none;
+}
+
+.submit {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.title {
+    margin-top: 100px;
+    border: 2px solid blue;
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px 30px;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.lbl {
+    font-size: 15px;
+    font-family: 'poppin';
+}
+
+.Containersafari {
+    margin-top: 390px;
+    margin-left: 200px;
+}
+
+.Containersafari3 {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.Containersafari5 {
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-bottom: 400px;
+    text-align: center;
+}
+
+
+.image01 {
+    width: 250px;
+    height: 50px;
+}
+
+.btn {
+    padding: auto;
+}
+
+.container-left {
+    margin-left: 400px;
+}
+
+.container-right-safari {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container-right-sup {
+    margin-left: 45px;
+    margin-top: 60px;
+}
+.container-left-safari {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.safari-landing-image {
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+
+.safari-landing-image .image01 {
+    width: flex;
+    height: auto;
+    
+}
+
+.btn-image-sup {
+    margin-right: 30px;
+}
+
+.search_box-safari {
+    display: flex;
+    justify-content: center;
+}
+
+.search_box-safari .inputReportSearch-safari {
+    background-color: rgb(41, 41, 41);
+    height: 50px;
+    width: 400px;
+    padding: 10px 10px;
+
+    
+}
+
+.ReportButton-safari {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #1b1b1b;
+    border: solid;
+    border-color: red;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: poppin;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 30px;
+}
+
+.buttonPosition-safari {
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.ReportButton-safari .button-text-safari,
+.ReportButton-safari .button-icon-safari {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    height: 100%;
+}
+
+.ReportButton-safari .button-icon-safari {
+    font-size: 1.5em;
+    background-color: #1b1b1b;
+    color: white;
+    border-left: solid;
+    border-color: red;
+}
+
+.search_box-safari1 .inputDriverSearch {
+    background-color: rgb(10, 10, 10);
+    height: 50px;
+    width: 500px;
+    padding: 10px 10px;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    
+}

@@ -1,0 +1,26 @@
+/* Define CSS styles for Dashboard component */
+
+/* Company name and image */
+.dashboard-image {
+    height: 620px;
+    width: 750px;
+    opacity: 10%;
+    
+    
+  }
+  /* Chart */
+  .chart-card {
+    margin-top: 20px;
+    height: 400px;
+  }
+  
+  /* OneMonth total Income , payment ,salary  */
+  .one-month-card {
+    height: 200px;
+  }
+  
+  /* ThreeMonth total Income , payment ,salary */
+  .three-month-card {
+    height: 200px;
+  }
+  

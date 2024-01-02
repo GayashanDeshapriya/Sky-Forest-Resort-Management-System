@@ -1,0 +1,113 @@
+
+.headbar {
+    text-align:center ;
+    font-size: xx-large;
+    border-radius: 25px;
+    background: #00444D;
+    padding: 5px; 
+    width: 1000px;
+    height: 50px;  
+    position:absolute;
+     top:80px;
+     left:480px;
+     right:5px;
+     margin-top:-60px;
+     margin-left:-50px;
+     color: aliceblue
+     
+  }
+  .add{
+    position:absolute;
+    top:200px;
+    left:500px;
+    right:5px;
+    margin-top:-60px;
+    margin-left:-50px;
+    height: 170px;
+  }
+  .edit{
+    position:absolute;
+    top:200px;
+    left:1000px;
+    right:5px;
+    margin-top:-60px;
+    margin-left:-50px;
+  }
+  .button1{
+    position:absolute;
+    top:350px;
+    left:480px;
+    right:5px;
+    margin-top:-60px;
+    margin-left:-50px;
+    width: 200px;
+    height: 40px;
+    background-color: #42a0ff ;
+    border: none;
+    border-radius: 25px;
+    color: aliceblue;
+    font-size: large;
+    
+  }
+  .button2{
+    position:absolute;
+    top:350px;
+    left:780px;
+    right:5px;
+    margin-top:-60px;
+    margin-left:-50px;
+    width: 200px;
+    height: 40px;
+    background-color: #42a0ff ;
+    border: none;
+    border-radius: 25px;
+    color: aliceblue;
+    font-size: large;
+    
+  }
+  .cancelbtn {
+    position:absolute;
+    top:800px;
+    left:650px;
+    right:5px;
+    margin-top:-60px;
+    margin-left:-50px;
+    width: 200px;
+    height: 40px;
+    background-color: #ff4242 ;
+    border: none;
+    border-radius: 25px;
+    color: aliceblue;
+    font-size: large;
+    
+  }
+  .cancelbtn:hover {background-color: #ac0000}
+  
+  .cancelbtn:active {
+    background-color: #FF6464;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .submitbtn {
+    position:absolute;
+    top:800px;
+    left:300px;
+    right:5px;
+    margin-top:-60px;
+    margin-left:-50px;
+    width: 200px;
+    height: 40px;
+    background-color: #0094A8 ;
+    border: none;
+    border-radius: 25px;
+    color: aliceblue;
+    font-size: large;
+    
+  }
+  .submitbtn:hover {background-color: #026976}
+  
+  .submitbtn:active {
+    background-color: #0094A8;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
